@@ -7,3 +7,4 @@
 5. Spinal Tap Case.
 6. Pig Latin.
 7. Search and Replace.
+8. DNA Pairing.
