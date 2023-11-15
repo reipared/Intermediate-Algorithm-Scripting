@@ -1,14 +1,13 @@
 function destroyer(arr) {
-	// Concatenate the two arrays into a single array
-	var combinedArray = arr1.concat(arr2);
+	// Convert the arguments object to an array, excluding the first element (arr)
+	var args = Array.from(arguments).slice(1);
 
-	// Use filter to create a new array with only the elements that are unique
-	var diff = combinedArray.filter(function (item) {
-		// Check if the item is not present in both arrays
-		return arr1.indexOf(item) === -1 || arr2.indexOf(item) === -1;
+	// Use filter to create a new array with only the elements not present in args
+	var result = arr.filter(function (element) {
+		return args.indexOf(element) === -1;
 	});
 
-	return diff;
+	return result;
 }
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
