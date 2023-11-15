@@ -1,17 +1,17 @@
 function sumAll(arr) {
-	// Find the minimum and maximum values in the array.
+	// Find the minimum and maximum values in the array
 	var min = Math.min(arr[0], arr[1]);
 	var max = Math.max(arr[0], arr[1]);
 
 	// Initialize the sum
 	var sum = 0;
 
-	// Iterate through the range and add each number to the sum.
+	// Iterate through the range and add each number to the sum
 	for (var i = min; i <= max; i++) {
-		sum += 1;
+		sum += i;
 	}
 
-	// Return the final sum.
+	// Return the final sum
 	return sum;
 }
 
