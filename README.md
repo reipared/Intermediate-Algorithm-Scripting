@@ -6,3 +6,4 @@
 4. Wherefore art thou.
 5. Spinal Tap Case.
 6. Pig Latin.
+7. Search and Replace.
