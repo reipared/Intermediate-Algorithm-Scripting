@@ -9,3 +9,18 @@ function fearNotLetter(str) {
 	// If no missing letter is found, return undefined
 	return undefined;
 }
+
+// Example 1
+var missingLetter1 = fearNotLetter("abcdegh");
+console.log(missingLetter1);
+// Output: "f"
+
+// Example 2
+var missingLetter2 = fearNotLetter("mnopqrst");
+console.log(missingLetter2);
+// Output: "u"
+
+// Example 3
+var missingLetter3 = fearNotLetter("lmnop");
+console.log(missingLetter3);
+// Output: "undefined"
