@@ -10,4 +10,9 @@ function destroyer(arr) {
 	return result;
 }
 
+// Examples
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+
+// Example usage:
+var resultArray = destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+console.log(resultArray); // Output: [1, 1]
