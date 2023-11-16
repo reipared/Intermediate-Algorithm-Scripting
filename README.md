@@ -8,3 +8,4 @@
 6. Pig Latin.
 7. Search and Replace.
 8. DNA Pairing.
+9. Missing Letters.
