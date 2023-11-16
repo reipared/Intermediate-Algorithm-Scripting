@@ -11,12 +11,20 @@ function diffArray(arr1, arr2) {
 	return diff;
 }
 
-// Examples
-diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+// Example 1
+var array1 = [1, 2, 3, 4, 5];
+var array2 = [3, 4, 5, 6, 7];
+console.log(diffArray(array1, array2));
+// Output: [1, 2, 6, 7]
 
-// Example usage:
-var array1 = [1, 2, 3, 5];
-var array2 = [1, 2, 3, 4, 5];
+// Example 2
+var fruits1 = ["apple", "orange", "banana"];
+var fruits2 = ["orange", "banana", "grape"];
+console.log(diffArray(fruits1, fruits2));
+// Output: ["apple", "grape"]
 
-var result = diffArray(array1, array2);
-console.log(result); // Output: [4]
+// Example 3
+var nums1 = [1, 2, 3];
+var nums2 = [1, 2, 3];
+console.log(diffArray(nums1, nums2));
+// Output: []

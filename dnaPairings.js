@@ -12,3 +12,5 @@ function pairElement(str) {
 
 	return result;
 }
+
+console.log(pairElement("GCG"));
