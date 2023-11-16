@@ -11,6 +11,7 @@ function whereforeArtThou(collection, source) {
 	});
 }
 
+// Example
 whatIsInAName(
 	[
 		{ first: "Romeo", last: "Montague" },
@@ -19,3 +20,16 @@ whatIsInAName(
 	],
 	{ last: "Capulet" }
 );
+
+// More Examples:
+var collection = [
+	{ name: "John", age: 30, gender: "male" },
+	{ name: "Jane", age: 25, gender: "female" },
+	{ name: "Bob", age: 35, gender: "male" },
+];
+
+var source = { age: 30, gender: "male" };
+
+var result = whereforeArtThou(collection, source);
+console.log(result);
+// Output: [{ name: "John", age: 30, gender: "male" }]
