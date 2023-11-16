@@ -27,6 +27,17 @@ function translatePigLatin(str) {
 	}
 }
 
-// Example usage:
-console.log(translatePigLatin("consonant")); // Output: "onsonantcay"
-console.log(translatePigLatin("rhythm")); // Output: "rhythmay" (word without vowels)
+// Example 1
+var pigLatinWord1 = translatePigLatin("happy");
+console.log(pigLatinWord1);
+// Output: "appyhay"
+
+// Example 2
+var pigLatinWord2 = translatePigLatin("glove");
+console.log(pigLatinWord2);
+// Output: "oveglay"
+
+// Example 3
+var pigLatinWord3 = translatePigLatin("rhythm");
+console.log(pigLatinWord3);
+// Output: "rhythmay"
