@@ -12,3 +12,4 @@
 10. Sorted Union.
 11. Convert HTML Entities.
 12. Sum All Odd Fibonacci Numbers.
+13. Sum All Primes.
