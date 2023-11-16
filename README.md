@@ -11,3 +11,4 @@
 9. Missing Letters.
 10. Sorted Union.
 11. Convert HTML Entities.
+12. Sum All Odd Fibonacci Numbers.
