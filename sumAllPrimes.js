@@ -1,22 +1,27 @@
-function sumFibs(num) {
-	let prev = 0;
-	let curr = 1;
-	let sum = 0;
-
-	while (curr <= num) {
-		if (curr % 2 !== 0) {
-			sum += curr;
+function sumPrimes(num) {
+	// Helper function to check if a number is prime
+	function isPrime(n) {
+		if (n < 2) return false;
+		for (let i = 2; i <= Math.sqrt(n); i++) {
+			if (n % i === 0) {
+				return false;
+			}
 		}
+		return true;
+	}
 
-		const temp = curr;
-		curr = prev + curr;
-		prev = temp;
+	let sum = 0;
+	for (let i = 2; i <= num; i++) {
+		if (isPrime(i)) {
+			sum += i;
+		}
 	}
 
 	return sum;
 }
 
 // Example usage:
+console.log(sumPrimes(10)); // should return 17
 console.log(sumFibs(1)); // should return a number
 console.log(sumFibs(1000)); // should return 1785
 console.log(sumFibs(4000000)); // should return 4613732
