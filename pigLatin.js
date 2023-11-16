@@ -27,4 +27,6 @@ function translatePigLatin(str) {
 	}
 }
 
-translatePigLatin("consonant");
+// Example usage:
+console.log(translatePigLatin("consonant")); // Output: "onsonantcay"
+console.log(translatePigLatin("rhythm")); // Output: "rhythmay" (word without vowels)
