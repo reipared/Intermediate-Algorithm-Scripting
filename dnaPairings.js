@@ -13,4 +13,17 @@ function pairElement(str) {
 	return result;
 }
 
-console.log(pairElement("GCG"));
+// Example 1
+var dnaSequence1 = "ATCG";
+console.log(pairElement(dnaSequence1));
+// Output: [ [ 'A', 'T' ], [ 'T', 'A' ], [ 'C', 'G' ], [ 'G', 'C' ] ]
+
+// Example 2
+var dnaSequence2 = "CGTA";
+console.log(pairElement(dnaSequence2));
+// Output: [ [ 'C', 'G' ], [ 'G', 'C' ], [ 'T', 'A' ], [ 'A', 'T' ] ]
+
+// Example 3
+var dnaSequence3 = "ATCGA";
+console.log(pairElement(dnaSequence3));
+// Output: [ [ 'A', 'T' ], [ 'T', 'A' ], [ 'C', 'G' ], [ 'G', 'C' ], [ 'A', 'T' ] ]
