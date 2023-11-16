@@ -10,3 +10,4 @@
 8. DNA Pairing.
 9. Missing Letters.
 10. Sorted Union.
+11. Convert HTML Entities.
