@@ -12,4 +12,28 @@ function myReplace(str, before, after) {
 	return str.replace(before, after);
 }
 
-myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+// Example usage for the provided tasks:
+
+console.log(
+	myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped")
+);
+
+console.log(myReplace("Let us go to the store", "store", "mall"));
+// Output: "Let us go to the mall"
+
+console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting"));
+// Output: "He is Sitting on the couch"
+
+console.log(myReplace("I think we should look up there", "up", "Down"));
+// Output: "I think we should look down there"
+
+console.log(myReplace("This has a spellngi error", "spellngi", "spelling"));
+// Output: "This has a spelling error"
+
+console.log(myReplace("His name is Tom", "Tom", "john"));
+// Output: "His name is John"
+
+console.log(
+	myReplace("Let us get back to more Coding", "Coding", "algorithms")
+);
+// Output: "Let us get back to more Algorithms"
