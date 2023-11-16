@@ -9,4 +9,9 @@ function spinalCase(str) {
 	return str.toLowerCase();
 }
 
+// Example
 spinalCase("This Is Spinal Tap");
+
+// More examples:
+var result = spinalCase("This is Spinal Tap");
+console.log(result); // Output: "this-is-spinal-tap"
