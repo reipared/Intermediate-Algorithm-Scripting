@@ -15,6 +15,17 @@ function sumAll(arr) {
 	return sum;
 }
 
-// Example usage
-var result = sumAll([1, 4]);
-console.log(result); // Output 10
+// Example 1
+var result1 = sumAll([1, 4]);
+console.log(result1);
+// Output: 10
+
+// Example 2
+var result2 = sumAll([5, 10]);
+console.log(result2);
+// Output: 45
+
+// Example 3
+var result3 = sumAll([2, 7]);
+console.log(result3);
+// Output: 27
